@@ -1,0 +1,10 @@
+﻿CREATE PROCEDURE [dbo].[spUsers_DeleteById]
+	@Id NVARCHAR(128)
+
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	DELETE FROM [dbo].[Users]
+	WHERE [Id] = @Id
+END
