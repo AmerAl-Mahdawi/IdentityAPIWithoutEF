@@ -83,4 +83,7 @@
     <Build Include="dbo\Stored Procedures\spRoles_GetById.sql" />
     <Build Include="dbo\Stored Procedures\spRoles_DeleteById.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="IdentityAPIWithoutEF_DB.publish.xml" />
+  </ItemGroup>
 </Project>
