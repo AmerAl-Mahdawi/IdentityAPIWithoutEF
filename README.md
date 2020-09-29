@@ -1,4 +1,4 @@
-# IdentityAPIWithoutEF
+# Identity API Without Entity Framework
 This is an API application that uses ASP.NET Core 3.1 Identity without relying on Entity Framework.
 
 It consists of three projects:
