@@ -12,7 +12,7 @@ Creating a membership management system that has the right features for any appl
 I am not a fan of using Entity Framework bacause it needs to have full access to the database and communicate using sql queries (**like Select * ...**). This (in my opinion) introduces many security issues as it is prefarable to use Stored Procedures instead in order to remove the possibility of sql injection threats.
 In addition to that, testing and fixing bugs will not be easy without knowing how Entity Framework works. This means you need to have long experiance and good understanding on how Entity Framework works in order to be able to asolate issues and fix them.
 
-## WHy Just API:
+## Why Just API:
 In order to build a real world system, it is better to separate the APIs project from the UI project. That is why this application has only APIs with Swagger documination page. So all the UI pages can be added into a separate UI project.
 
 # What Services Included:
